@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         Button btn = new Button(this);
         text = new TextView(this);
         text.setTextColor(Color.MAGENTA);
+        text.setTextSize(20);
+        btn.setText("버튼입니다.");
 
         linear.addView(edit);
         linear.addView(btn);
